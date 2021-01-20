@@ -15,5 +15,10 @@ public class StoreMgrApplication {
 		logger.error("this is an error message");
 		SpringApplication.run(StoreMgrApplication.class, args);
 	}
-
+//TODO: lookup best practice, whether to return ResponseEntity also in delete
+//TODO: @Valid for the ResponseBody parameter, do we need that?
+//TODO: should api methods be public or just default?
+//TODO: use Lombok? to minimize boiler plate code?
+//only the READ were tested
+//TODO next is test CRUD, add attributes to entities, then commit
 }
